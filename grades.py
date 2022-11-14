@@ -1,7 +1,7 @@
 x=100
 if x < 100:
     
-    print("x is A")
+    print("x is a A")
 elif x < 80:
     print("x is a B")
 elif x < 70:
