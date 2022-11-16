@@ -1,30 +1,55 @@
 my_list=[
-    "common",
-    "rare",
-    "epic",
-    "legendary",
-    "ancient"
-]
-print(my_list)
-
-my_list.append('super_epic')
-
-print(my_list)
-
-print(my_list[4])
-
-
-print(my_list[-1])
-
-
-my_tuple=(
     "purevanilla",
     "hollyberry",
     "darkcacao",
     "goldencheese",
-    "whitelily"
-)
-print(my_tuple)
+]
+print(my_list)
 
-my_tuple[0]='moonlight'
-#This is a list of ancient type of cookies
+my_list.append('whitelily')
+
+print(my_list)
+
+#print(my_list[4])
+
+
+#print(my_list[-1])
+
+
+#my_tuple=(
+   #"purevanilla",
+ #"hollyberry",
+#"darkcacao",
+ #  "goldencheese",
+  # "whitelily")
+#print(my_tuple)
+
+#"my_tuple"[0]='moonlight'
+#"This is a list of ancient type of cookies"
+
+
+print(len(my_list))
+print(my_list)
+
+my_list.sort()
+
+print(my_list)
+
+my_list.reverse()
+
+print(my_list.reverse)
+
+
+#print(input)
+
+second_list=[
+'moonlight',
+'seafairy',
+'windarcher',
+'firespirit',
+]
+
+print(my_list+second_list)
+print("millienialtree " .join(my_list + second_list))
+cookies= "darkcacao, seafairy".split(" , ")
+print(cookies)
