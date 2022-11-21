@@ -8,6 +8,12 @@ elif x < 80:
 elif x < 70:
     print("x is a C")
 # Grade if it's  60 or lower is failure
-else: x <  60 or  50;
+else: x <  60 or  55 < 0;
 print("x is D or F")
 
+
+
+if x < 100:
+print("x is a 0")
+else: x < 100;
+print("x is a  100")

@@ -50,6 +50,6 @@ second_list=[
 ]
 
 print(my_list+second_list)
-print("millienialtree " .join(my_list + second_list))
-cookies= "darkcacao, seafairy".split(" , ")
-print(cookies)
+print("milliennialtree " .join(my_list + second_list))
+ancientcookies_legendarycookies="hollyberry, moonlight".split(" , ")
+print(ancientcookies_legendarycookies)

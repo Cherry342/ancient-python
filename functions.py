@@ -21,5 +21,7 @@ def slope(m,x,b):
 
 y=slope(12,18,24)
 
-
+def divide(i,j):
+    divide(i/j)
+    y=divide(50/2)
 
