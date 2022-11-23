@@ -13,7 +13,3 @@ print("x is D or F")
 
 
 
-if x < 100:
-print("x is a 0")
-else: x < 100;
-print("x is a  100")
