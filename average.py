@@ -21,7 +21,7 @@ print(sum+grades)
 
 #average in the first marking period
 
-f#or average in x:
+#for average in x:
 #    x=[99,92,80,65,100]
    # average=sum+average
 #print(average)
