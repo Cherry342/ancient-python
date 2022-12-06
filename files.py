@@ -11,4 +11,4 @@ my_file = open("anna.txt")
 for line in my_file.readlines():
     print(line, end="")
 
-my_file = open("dtodo.py")
+my_file = open("todo.py")
