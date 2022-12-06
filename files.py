@@ -1,11 +1,14 @@
-my_file = open("anna.txt", "r+")
+my_file = open("anna.txt", "a")
 
 #print(my_file.readlines())
 
-for line in my_file.readlines():
-    #print(line)
+my_file.write('im writing from python\n')
 
-    #print("hello")
-    #print("world")
+my_file.close()
+
+
+my_file = open("anna.txt") 
+for line in my_file.readlines():
     print(line, end="")
-my_file.writelines(['im writing from python'])
+
+my_file = open("dtodo.py")
