@@ -1,19 +1,20 @@
 try:
-age = int(input('Enter your age: '))
+    age = int(input('Enter your age: '))
 
 
- faveNum = int(input('What is your favorite number: '))
+    faveNum = int(input('What is your favorite number: '))
 
- print("Please input a number")
+    print("Please input a number")
 
 
- if age <= 21:
- print('You are not allowed to enter, you are too young.')
+    if age <= 21:
+    print('You are not allowed to enter, you are too young.')
 else:
- print('Welcome, you are old enough.')
+    print('Welcome, you are old enough.')
 
 print("Fun Fact! Your age divided by your favorite number is: " , age / faveNum)
-except  ValueError:
+
+except ValueError:
     print("Please input a number")
 
 except ZeroDivisionError:
