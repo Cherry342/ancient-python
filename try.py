@@ -1,5 +1,5 @@
 try:
- age = int(input('Enter your age: '))
+age = int(input('Enter your age: '))
 
 
  faveNum = int(input('What is your favorite number: '))
@@ -13,11 +13,11 @@ else:
  print('Welcome, you are old enough.')
 
 print("Fun Fact! Your age divided by your favorite number is: " , age / faveNum)
-except ValueError:
-print("Please input a number")
+except  ValueError:
+    print("Please input a number")
 
 except ZeroDivisionError:
-  print("Please  do not enter the number zero")
+    print("Please  do not enter the number zero")
 
 finally:
  print("Congrats no ID-10-T errors!")
