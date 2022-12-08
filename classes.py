@@ -9,7 +9,19 @@ class Person:
         self.age = age
     def hi(self):
      print("Hi my name is" + self.name)
+class Teacher(Person):
+    role='teacher'
+    def hi(self):
+        print ("Hi my name is Mr." + self.name)
+forlenza = Teacher("Forlenza", 185)
+print(forlenza.role)
 
+class Student(Person):
+    role='student'
+Kevaughn = Student("Kevaughn", 168)
+print(Kevaughn.role)
+
+forlenza.hi()
 anna = Person("Anna", 184)
 print(anna.name)
 print(anna.age)
